@@ -29,9 +29,6 @@ Fake TLS Check (ee)
   from MTPCheck import fake_tls_handshake_check
   await fake_tls_handshake_check(server, port, secret, dc_id, timeout)
 
-  from MTPCheck import randomized_intermediate_check
-  await randomized_intermediate_check(server, port, secret, dc_id, timeout)
-
 
 Random padding/Intermediate Check
 -----------------
